@@ -1,3 +1,4 @@
+
 // Integer constants defined in linux/input.h can be accessed
 // directly or through the provided reverse and forward mappings:
 //
@@ -8,7 +9,7 @@
 //   evdev.EV[evdev.EV_KEY]  // "EV_KEY"
 //   evdev.ByEventType[EV_REL][0]  // "REL_X"
 //
-// Generated on: Linux 3.7.5-201.fc18.x86_64 #1 SMP Mon Jan 28 19:54:41 UTC 2013 x86_64
+// Generated on: Linux 3.13.0-39-generic #66~precise1-Ubuntu SMP Wed Oct 29 09:56:49 UTC 2014 x86_64
 
 package evdev
 
@@ -592,8 +593,6 @@ const (
     ABS_MT_TRACKING_ID = 0x39
     ABS_MT_PRESSURE = 0x3a
     ABS_MT_DISTANCE = 0x3b
-    ABS_MT_TOOL_X = 0x3c
-    ABS_MT_TOOL_Y = 0x3d
     ABS_MAX = 0x3f
     ABS_CNT = (ABS_MAX+1)
     SW_LID = 0x00
@@ -1245,8 +1244,6 @@ var ecodes = map[string] int {
     "ABS_MT_TRACKING_ID" : ABS_MT_TRACKING_ID,
     "ABS_MT_PRESSURE" : ABS_MT_PRESSURE,
     "ABS_MT_DISTANCE" : ABS_MT_DISTANCE,
-    "ABS_MT_TOOL_X" : ABS_MT_TOOL_X,
-    "ABS_MT_TOOL_Y" : ABS_MT_TOOL_Y,
     "ABS_MAX" : ABS_MAX,
     "ABS_CNT" : ABS_CNT,
     "SW_LID" : SW_LID,
