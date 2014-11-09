@@ -5,7 +5,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/gvalkov/golang-evdev/evdev"
+	"github.com/dddpaul/golang-evdev/evdev"
 	"os"
 	"strings"
 )

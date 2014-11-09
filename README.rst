@@ -14,5 +14,5 @@ Changelog
 Work in progress
 ^^^^^^^^^^^^^^^^
 
-.. _godoc: http://godoc.org/github.com/gvalkov/golang-evdev
-.. _evtest: https://github.com/gvalkov/golang-evdev/blob/master/bin/evtest.go
+.. _godoc: http://godoc.org/github.com/dddpaul/golang-evdev
+.. _evtest: https://github.com/dddpaul/golang-evdev/blob/master/evtest.go
